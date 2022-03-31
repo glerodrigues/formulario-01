@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 800px;
+  color: white	;
+  text-shadow: 1px 0px 3px #D3D3D3;
+  background-image: url(/assets/images/sky1\ \(1\).jpg);
+}
+
+
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: auto;
+  background-color:#87CEFA;
+  border-radius: 20px;
+  border: 1px solid white;
+
+}
+
+.container form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container h2 {
+  margin-bottom: 40px;
+  padding: 10px;
+  font-size: 40px;
+  border: 1px solid  #c0c0c0 ;
+  background-color: white;
+  border-radius: 30px;
+  color: #87CEFA;
+
+  
+}
+
+form input, textarea {
+  border: 1px solid #c0c0c0;
+  border-radius: 15px;
+  padding: 5px;
+}
+ .button{
+   font-size: 15px;
+   padding: 8px;
+   background-color: white;
+   color: #87CEFA;
+   justify-content: center;
+   text-transform: uppercase;
+   
+ }
+ form a {
+   text-decoration: none;
+   color: white;
+ }
