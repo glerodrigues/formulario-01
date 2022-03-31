@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <title>inscrição</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="/assets/paginas/" method="get">
+        <h2>Ficha de Cadastro</h2>
+        <label>
+          Nome Completo:
+          <input
+            type="text"
+            name="user"
+            placeholder="digite seu nome..."
+            required="true"
+          />
+        </label>
+
+        <br />
+
+        <label>
+          Data de Nascimento:
+          <input type="date" name="date" required="true" />
+        </label>
+        <br />
+
+        <label>
+          Profissão:
+          <input type="text" name="profession" />
+        </label>
+        <br />
+        <textarea
+          name="desc-prof"
+          id=""
+          cols="30"
+          rows="5"
+          placeholder=" Descreva o que você faz..."
+        ></textarea>
+
+        <label>
+          <input type="checkbox" />
+          não possuo profissão definida
+        </label>
+
+        <br />
+
+        <label>
+          E-mail:
+          <input type="email" name="email" required="true" />
+        </label>
+        <br />
+        <label>
+          Telefone:
+          <input type="tel" name="phone" required="true" />
+        </label>
+        <br />
+        <label>
+          Endereço: <br />
+          <textarea
+            name="adress"
+            id=""
+            cols="30"
+            rows="5"
+            placeholder=" Digite seu endereço completo (rua, numero, bairro, cidade, estado, cep)"
+          ></textarea>
+        </label>
+        <br />
+
+        <label>
+          <input type="checkbox" name="termos" required="true" />
+
+          <a href="#">li e declaro que aceito os termos</a>
+        </label>
+        <br />
+        <label>
+          <input
+            class="button"
+            type="submit"
+            name="cadastrar"
+            value="cadastrar"
+          />
+        </label>
+      </form>
+    </div>
+  </body>
+</html>
